@@ -15,8 +15,15 @@
     box-sizing: border-box;
     
 }
+.central-card{
+    background-color: aqua;
+    
+    
+}
 header{
     background-color: #F344C2;
+    height: 90px;
+    
     height: 90px;
 
 }
@@ -26,11 +33,6 @@ header{
     justify-content: space-between;
     color: white;
 }
-/* .nav-link ul li{
-    list-style-type: none;
-    text-decoration: none;
-       
-} */
 
 
 .link-header .nav-link a {
@@ -55,12 +57,34 @@ header{
     list-style: none;
 }
 
-.card{
+.card {
+    background-color: bisque;
+    width: 1000px;
+    height: 265px;
+    margin-top: 20px;
+    
+    
+
+}
+.card2 {
+    background-color: bisque;
+    width: 1000px;
+    height: 265px;
+    margin-top: 20px;
+
+}
+.card3{
+    background-color: bisque;
+    width: 1000px;
+    height: 265px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card4{
     background-color: bisque;
     width: 1000px;
     height: 265px;
     
-
 }
 
 .icon{
@@ -69,3 +93,16 @@ header{
 
 
 }
+
+.central-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rodape {
+background-color: #F344C2;
+color: white;
+height: 67px;
+}
+
+
