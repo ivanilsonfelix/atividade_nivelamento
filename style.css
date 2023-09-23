@@ -10,21 +10,29 @@
 
 /*reset */
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     
 }
+.container-grid{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+}
 .central-card{
-    background-color: aqua;
+    background-color:#E5CDCD;
     
     
 }
 header{
     background-color: #F344C2;
     height: 90px;
-    
     height: 90px;
+    
+    
+    
 
 }
 .link-header{
@@ -32,6 +40,8 @@ header{
     align-items: center;
     justify-content: space-between;
     color: white;
+    padding: 30px;
+    
 }
 
 
@@ -42,6 +52,7 @@ header{
     font-family: font-paragrafo-bold;
     font-size: 20px;
     letter-spacing: 1px;
+    
     
 }
 
@@ -55,11 +66,15 @@ header{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    
+    
+
+
 }
 
 .card {
     background-color: bisque;
-    width: 1000px;
+    width: 100%;
     height: 265px;
     margin-top: 20px;
     
@@ -68,31 +83,43 @@ header{
 }
 .card2 {
     background-color: bisque;
-    width: 1000px;
+    width: 100%;
     height: 265px;
     margin-top: 20px;
 
 }
 .card3{
     background-color: bisque;
-    width: 1000px;
+    width: 100%;
     height: 265px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 .card4{
     background-color: bisque;
-    width: 1000px;
+    width: 100%;
     height: 265px;
     
+    
+    
+}
+.data-card{
+    display: flex;
+    justify-content: space-between;
 }
 
 .icon{
     width: 40px;
     height: 40px;
-
-
+    
 }
+.logo img {
+    margin-top: 30px;
+    margin-bottom: -5px;
+    max-width: 1200px;
+   
+    }
+
 
 .central-card{
     display: flex;
@@ -103,6 +130,12 @@ header{
 background-color: #F344C2;
 color: white;
 height: 67px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
 }
+
 
 
